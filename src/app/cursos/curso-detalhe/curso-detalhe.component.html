@@ -1,0 +1,7 @@
+<div *ngIf="curso">
+    <p>Curso ID: {{ curso?.id }}</p>
+    <p>Nome: {{ curso?.name }}</p>
+</div>
+<div *ngIf="!curso">
+    <p>Curso não encontrado</p>
+</div>
